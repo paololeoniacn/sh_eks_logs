@@ -1,0 +1,70 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# === Virtualenv ===
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === VSCode ===
+.vscode/
+.history/
+
+# === Log / Debug files ===
+*.log
+*.out
+
+# === Environment / Secrets ===
+.env
+.env.*
+
+# === Docker / Podman ===
+*.pid
+*.sock
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints/
+profile_default/
+.ipython/
+
+# === Test / Coverage ===
+htmlcov/
+.tox/
+.coverage
+.cache
+pytest_cache/
+
+# === MyPy / Pyright ===
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# === PyInstaller ===
+*.spec
+
+# === Git ===
+*.orig
+
+# === System files ===
+Thumbs.db
+Desktop.ini
